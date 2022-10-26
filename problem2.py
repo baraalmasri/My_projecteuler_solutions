@@ -10,7 +10,7 @@ while(fib<4000000):
   fib=new_sum+old_sum
   if fib%2==0:
     even_valued+=fib
-  old_sum=new_sum
-  new_sum=fib
+  old_sum,new_sum=new_sum,fib
 
 print(even_valued) #4613732
+
