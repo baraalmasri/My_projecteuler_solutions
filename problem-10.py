@@ -25,11 +25,4 @@ for x in ml:
 
 print(iter)
 
-# def testyield():
-#   yield "Welcome to Guru99 Python Tutorials"
-#
-# output = testyield()
-#
-# for i in output :
-#
-#     print(i)
+ 
